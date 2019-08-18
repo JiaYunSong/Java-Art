@@ -1,0 +1,41 @@
+header {
+    background-color: #6aa5ee;
+    border-bottom: 2px solid white;
+    width: 1600px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+header div {
+    font-family: 黑体;
+}
+header div:nth-child(1) {
+    color: #000000;
+    font-size: 22px;
+    margin-top: 14px;
+    margin-left: 15px;
+    float: left;
+}
+header div:nth-child(2) {
+    margin-top: 10px;
+    margin-right: 15px;
+    float: right;
+}
+header div:nth-child(2) input {
+    font-size: 20px;
+    width: 120px;
+    height: 30px;
+    background-color: #b0d2e5;
+    cursor: pointer;
+    color: #000000;
+    border: none;
+}
+
+section {
+    background-image: url(../backgound/title.jpg);
+    width: 1600px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid white;
+}

@@ -1,0 +1,57 @@
+header {
+    background-image: url(../backgound/login.jpg);
+    color: black;
+    width: 1600px;
+    height: 990px;
+    text-align: center;
+    margin: 0 auto;
+}
+#title {
+    display: inline-block;
+    font-size: 64px;
+    font-family: 黑体;
+    padding-top: 200px;
+    width: 960px;
+}
+#titlebottom {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 960px;
+    text-align: left;
+    font-size: 24px;
+    padding: 50px 130px 70px 110px;
+}
+#login {
+    display: inline-block;
+    border: 1px solid white;
+    width: 960px;
+    height: 240px;
+}
+#login div:first-child {
+    color: #ffffff;
+    font-family: 黑体;
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+#login div input:first-child {
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    border: none;
+}
+#login div input:nth-child(2) {
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    border: none;
+}
+#login div input:nth-child(3) {
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+    background-color: #000000;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+}

@@ -1,0 +1,136 @@
+#all {
+    width: 1600px;
+    height: 990px;
+    margin: 0 auto;
+    font-family: 黑体;
+    margin-top: 0px;
+}
+.input_out {
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    background-color: #99ccff;
+    cursor: pointer;
+    color: #000000;
+    border: none;
+    border-bottom: 2px solid white;
+}
+.input_move {
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    background-color: #ccffff;
+    cursor: pointer;
+    color: #000000;
+    border: none;
+    border-bottom: 2px solid white;
+}
+#mode {
+    float: left;
+    width: 300px;
+    height: 990px;
+    background-color: #6aa5ee;
+    margin-top: 0px;
+}
+#state {
+    float: left;
+    width: 1300px;
+    height: 990px;
+    background-color: #deecfa;
+    margin-top: 0px;
+}
+#state div {
+    float: left;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 22px;
+}
+#state input:nth-child(2) {
+    float: left;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 500px;
+    height: 30px;
+}
+#state input:nth-child(3) {
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 450px 10px 40px;
+    width: 90px;
+    height: 35px;
+}
+#state input:nth-child(5) {
+    margin-left: 100px;
+}
+table.gridtable {
+    font-family: 隶书;
+    font-size:25px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+}
+table.gridtable th {
+    border-width: 1px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+}
+table.gridtable td {
+    border-width: 1px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}
+#alter {
+    float: left;
+    width: 300px;
+    height: 990px;
+    background-color: #6aa5ee;
+    margin-top: 0px;
+}
+#alter-data {
+    float: left;
+    width: 1300px;
+    height: 990px;
+    background-color: #deecfa;
+    margin-top: 0px;
+}
+#alter-data div:nth-child(1) {
+    width: 1300px;
+    height: 30px;
+}
+#alter-dataput {
+    width: 1300px;
+    height: 60px;
+}
+#alter-dataput div:nth-child(1) {
+    float: left;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+}
+#alter-dataput input {
+    float: left;
+    font-size: 25px;
+    margin: 10px 200px 5px 0px;
+    width: 500px;
+    height: 30px;
+}
+#alterbottum {
+    margin:30px 500px 40px 400px;
+    font-size: 25px;
+    width: 200px;
+    height: 35px;
+}
+#alter-data div:last-child {
+    font-size: 30px;
+    margin-left: 100px;
+    color: #ff3333;
+}

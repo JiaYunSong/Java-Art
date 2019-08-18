@@ -1,0 +1,7 @@
+本文件夹原路径：
+	E:\1.课内资料\1-大一下课程\主-JAVA小学期\03-实验作业\网络程序设计课程考核\我国各民族人口性别构成网络查询系统
+
+【备注】
+NQS		为web应用
+NQSData		为Java DB数据库
+Java DB.JAR	为web项目所需的derby包，导入时还需单独再次导入lib/derby.jar

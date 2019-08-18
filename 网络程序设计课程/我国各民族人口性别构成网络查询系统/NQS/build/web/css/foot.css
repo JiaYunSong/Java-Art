@@ -1,0 +1,16 @@
+#foot  {
+    background-color: black;
+    width: 1600px;
+    height: 30px;
+    text-align: center;
+    font-family: 黑体;
+    font-size: 15px;
+    margin: 0 auto;
+}
+#foot div:first-child {
+    float: left;
+    margin-top: 7px;
+    color: white;
+    width: 1600px;
+    height: 16px;
+}
