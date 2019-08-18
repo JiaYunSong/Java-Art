@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: swing_option.ConfirmDialog_test
+Class-Path: . lib/ojdbc14.jar lib/poi-2.5.1.jar lib/jbcl.jar lib/JTattoo.jar lib/liquidlnf.jar 
+Created-By: 若水茗心

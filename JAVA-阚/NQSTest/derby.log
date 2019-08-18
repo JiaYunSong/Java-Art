@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Aug 11 02:14:52 CST 2019:
+正在使用类加载程序 sun.misc.Launcher$AppClassLoader@6d06d69c 引导数据库
+目录 E:\1.课内资料\1-大一下课程\主-JAVA小学期\03-实验作业\网络程序设计课程考核\我国各民族人口性别构成网络查询系统\NQSData 中的 Derby 版本 The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631) 实例 a816c00e-016c-7cbd-8b94-000006ccedb8
+已从 file:/D:/Java/Java-JDK/db/lib/derby.jar 加载
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_152-b16
+user.dir=E:\1.课内资料\1-大一下课程\自-Java\NQSTest
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+数据库类加载程序已启动 - derby.database.classpath=''

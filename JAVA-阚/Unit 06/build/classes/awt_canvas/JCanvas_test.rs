@@ -1,0 +1,2 @@
+awt_canvas.MyCanvas
+awt_canvas.JCanvas_test

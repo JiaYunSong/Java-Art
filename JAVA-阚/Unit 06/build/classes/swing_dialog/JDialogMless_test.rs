@@ -1,0 +1,3 @@
+swing_dialog.JDialogMless_test
+swing_dialog.NameDialogM_2
+swing_dialog.MainWnd_2
