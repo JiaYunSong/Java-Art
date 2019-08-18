@@ -1,0 +1,150 @@
+* {
+	margin: 0px; padding: 0px; outline: 0px;
+}
+body {
+	border: 0px currentColor; border-image: none;
+}
+div {
+	border: 0px currentColor; border-image: none;
+}
+span {
+	border: 0px currentColor; border-image: none;
+}
+p {
+	border: 0px currentColor; border-image: none;
+}
+a {
+	border: 0px currentColor; border-image: none;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+ul {
+	border: 0px currentColor; border-image: none;
+}
+ol {
+	border: 0px currentColor; border-image: none;
+}
+li {
+	border: 0px currentColor; border-image: none;
+}
+table {
+	border: 0px currentColor; border-image: none;
+}
+th {
+	border: 0px currentColor; border-image: none;
+}
+tr {
+	border: 0px currentColor; border-image: none;
+}
+td {
+	border: 0px currentColor; border-image: none;
+}
+form {
+	border: 0px currentColor; border-image: none;
+}
+fieldset {
+	border: 0px currentColor; border-image: none;
+}
+legend {
+	border: 0px currentColor; border-image: none;
+}
+dl {
+	border: 0px currentColor; border-image: none;
+}
+dt {
+	border: 0px currentColor; border-image: none;
+}
+dd {
+	border: 0px currentColor; border-image: none;
+}
+blockquote {
+	border: 0px currentColor; border-image: none;
+}
+applet {
+	border: 0px currentColor; border-image: none;
+}
+object {
+	border: 0px currentColor; border-image: none;
+}
+ul {
+	list-style-type: none;
+}
+ol {
+	list-style-type: none;
+}
+hr {
+	display: none;
+}
+.clear {
+	width: 100%; height: 0px; line-height: 0; clear: both; font-size: 0px; display: block;
+}
+.noScreen {
+	display: none !important;
+}
+.floatLeft {
+	float: left !important;
+}
+.floatRight {
+	float: right !important;
+}
+.bold {
+	font-weight: bold !important;
+}
+.small {
+	font-size: 0.9em !important;
+}
+.large {
+	font-size: 1.2em !important;
+}
+.italic {
+	font-style: italic !important;
+}
+.block {
+	display: block !important;
+}
+.inlineBlock {
+	display: inline-block !important;
+}
+.inline {
+	display: inline !important;
+}
+.alignRight {
+	text-align: right !important;
+}
+.alignCenter {
+	text-align: center !important;
+}
+.alignJustify {
+	text-align: justify !important;
+}
+.verticalTop {
+	vertical-align: top !important;
+}
+.verticalBtm {
+	vertical-align: bottom !important;
+}
+.relative {
+	position: relative !important;
+}
+.noBorder {
+	border: 0px currentColor !important; border-image: none !important;
+}
+img.floatLeft {
+	margin-right: 15px !important; margin-bottom: 10px;
+}
+img.floatRight {
+	margin-bottom: 10px; margin-left: 15px !important;
+}
+.clearFix::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.clearFix {
+	display: inline-block;
+}
+* html .clearFix {
+	height: 1%;
+}
+.clearFix {
+	display: block;
+}

@@ -1,0 +1,119 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0060)http://202.205.95.151:8080/javatraining/shixun/shixun03.html -->
+<!DOCTYPE html PUBLIC "" ""><HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+ 
+<META http-equiv="content-type" content="text/html; charset=utf-8"> 
+<META name="keywords" content=""> 
+<META name="robots" content="all,follow"> <LINK href="favicon.ico" rel="shortcut icon"> 
+<LINK href="实训03_类声明和对象创建_files/reset.css" rel="stylesheet" type="text/css" 
+media="screen,projection"> <LINK href="实训03_类声明和对象创建_files/main.css" rel="stylesheet" 
+type="text/css" media="screen,projection"> <LINK href="实训03_类声明和对象创建_files/print.css" 
+rel="stylesheet" type="text/css" media="print"> 
+<SCRIPT src="实训03_类声明和对象创建_files/jquery-1.5.1.min.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="实训03_类声明和对象创建_files/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="实训03_类声明和对象创建_files/jquery.easing-1.3.pack.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="实训03_类声明和对象创建_files/jquery.mousewheel-3.0.4.pack.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="实训03_类声明和对象创建_files/jquery.nivo.slider.pack.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="实训03_类声明和对象创建_files/custom.js" type="text/javascript"></SCRIPT>
+ <TITLE>实训03.类声明和对象创建</TITLE> 
+<META name="GENERATOR" content="MSHTML 11.00.10570.1001"></HEAD> 
+<BODY>
+<DIV id="wrap">
+<DIV class="w940 middle" id="layout2">
+<DIV class="clearFix" id="intro">
+<DIV id="sliderWrap"><IMG src="实训03_类声明和对象创建_files/line1.png"> </DIV></DIV><!-- / #intro --> 
+    
+<DIV id="container">
+<DIV class="clearFix" id="content">
+<UL>
+  <LI>
+  <H2>一、目的</H2>
+  <P>(1).进一步熟悉Java开发环境的使用。(2).通过实践练习初步了解Java程序的构成和编写方法。(3).熟悉Java类声明及使用方法。</P></LI>
+  <LI>
+  <H2>二、课程相关</H2>
+  <P>（1）Java平台的构成，学会安装JDK，建立Java程序开发环境。</P>
+  <P>（2）Java程序基本结构。</P>
+  <P>（3）Java数据类型、变量和表达式。</P>
+  <P>（4）Java类声明和对象创建。</P>
+  <P>（5）Java基本API了解和使用。</P>
+  <P></P></LI><!--
+          <li>
+            <h2>三、内容</h2>
+            <h3>示例</h3>
+           </li>
+           --> 
+            
+  <LI>
+  <H2>三、训练</H2>
+  <P><STRONG>1.</STRONG>阶乘函数f(n)=n!,其中n为正整数。试设计一个计算阶乘类Factorial，计算任意整数的阶乘。</P>
+  <P><STRONG>2.</STRONG>设计Java类WordCounter，实现从文本Text检索Key子串，统计Key在Text中的出现次数，并返回Key在Text中第一次和最后一次出现的位置。</P>
+  <P><STRONG>3.</STRONG>设计Java类表示三角形，要求提供三种实例化方式，即由三个顶点A(x,y)、B(x,y)和C(x,y)实例化，或由底边长度和高度实例化，或由三个边长实例化。实现三角形周长和面积计算，在屏幕绘制三角形？提示：要考虑该类可能会被用做父类。</P>
+  <P><STRONG>4.</STRONG>设计Java类表示矩形，要求提由四个顶点坐标实例化，或由边长度和高度实例化，实现矩形周长和面积计算，在屏幕绘制绘制矩形？提示：要考虑该类可能会被用做父类。</P>
+  <P><STRONG>5.</STRONG>设计Java类表示圆形，要求提由圆心四个顶点坐标和半径长度实例化，实现圆形周长和面积计算，在屏幕绘制绘制圆形？提示：要考虑该类可能会被用做父类。</P>
+  <P><STRONG>6.</STRONG>设计Java类SimpleStatistics，完成平均数、最大、最小、中位数、总体方差和标准方差等基本统计方法的计算。</P>
+  <P><STRONG>7.</STRONG>编写一个Java类实现计算1～N之间的素数?</P>
+  <P><STRONG>8.</STRONG>编写Java类，实现随机生成由20个字符组成的字符串。该字符串包含a-z，A-Z和0-9任意字符。</P>
+  <P><STRONG>9.</STRONG>仔细分析下面图形，写出描述图形的Java类并绘制该图形。</P><IMG width="217" height="253" 
+  src="实训03_类声明和对象创建_files/pic3-pic010.png">              
+  <P><STRONG>10.</STRONG>设计帐户类，类名称Accoun，该类包含有：</P>
+  <UL>
+    <LI>id域，int类型，私有，默认值0。存储帐户ID。</LI>
+    <LI>balance域，double类型，私有，默认值0。存储帐户余额。</LI>
+    <LI>annualInterestRate域，double类型，私有，默认值0。存储所有帐户的利率。</LI>
+    <LI>dateCreated域，String类型，私有。存储帐户的开户日期。</LI>
+    <LI>创建默认帐户的无参数构造方法。</LI>
+    <LI>创建以ID和余额为初始数据创建帐户的构造方法。</LI>
+    <LI>访问和修改id域、balance域、annualInterestRate域的方法。</LI>
+    <LI>dateCreated域的访问方法。</LI>
+    <LI>getMonthlyInterestRate方法返回月利息。</LI>
+    <LI>withDraw方法，提款方法，需要指定款的数额。</LI>
+    <LI>deposit方法，存款方法。</LI></UL>
+  <P><STRONG>11.</STRONG>某项目需要对获得的数据进行排序，编写实现对double类型和int数组元素排序的Java类DoubleSort和IntegerSort。</P>
+  <P><STRONG>12.</STRONG>下表是一张《库存商品明细账》，请写出描述该明细账表的Java类。</P><IMG width="708" 
+  height="520" src="实训03_类声明和对象创建_files/pic3-pic020.png">             
+  <P>类名称KuCun，要求提供如下基本操作：</P>
+  <UL>
+    <LI>建帐，即类实例化，用类别、编号、总页次做为初始数据实例化类KuCun。</LI>
+    <LI>表项类别，编号，帐户页次、品名规格、计量单位等数据的修改和返回操作。</LI>
+    <LI>明细数据项的添加、删除、修改。</LI>
+    <LI>明细数据项查找（按日期和摘要）、计数（按数量、单价、金额）、求和（按进货，销售和结存的金额）。</LI></UL>
+  <P>提示：查看Java API 
+  文档，了解java.util包中的与集合，数组，哈希表，向量以及日期，时间相关的类。本题可能会用到象AbstractList类一样的类。</P>
+  <P><STRONG>13.</STRONG>Fibonancii级数形式：1,1,2,3,5,8,13,21,34,......，其中X1=X2=1，Xi=X(i-1)+X(i-2)。设计Fibonancii类，实现计算级数第N项和返回前N项。</P>
+  <P><STRONG>14.</STRONG>设计一个Java类实现对任意整数N判断其是否为素数，类名称IsPrimeNumber。</P>
+  <P><STRONG>15.</STRONG>水仙花数是指其个位、十位、百位三个数的立方和等于这个数本身。设计水仙花数类，提供(1)测试任意3位整数是否是水仙花数；(2)返回指定范围内的所有水仙花数。</P>
+  <P><STRONG>16.</STRONG>考察下面的几何图形，找出对象，设计Java类描述这些对象，并绘制出该图（位置和尺寸自定）。</P><IMG 
+  width="560" height="291" src="实训03_类声明和对象创建_files/pic3-1.png">             
+  <P>提示：(1)可以考虑使用前面题目中设计的类 。(2)有关绘图操作参考Graphisc类、Color类。</P>
+  <P><STRONG>17</STRONG>.设计数值排序器，实现对Java数值型数据排序，类名称NumberSort。</P>
+  <P><STRONG>18.</STRONG>设计文件路径名分解类PathnameParse，实现将路径名分解为驱动器符号、路径和文件名三部分。例如, 
+  c:\windows\system32\cmd.exe 可分解为“c:\”,“windows\system32\”和“cmd.exe”。</P>
+  <P><STRONG>19.</STRONG>有矩阵A和B，设计专门用于矩阵基本运算的Java类，实现对转置、A+B等基本运算。类名称Basematrix。(提示：此类可能会被继承。)<BR><IMG 
+  src="实训03_类声明和对象创建_files/pic3-g19-a.gif"> <IMG src="实训03_类声明和对象创建_files/pic3-g19-b.gif"></P>
+  <P>20.下表是《我国各民族人口性别构成一览表》的部分数据。仔细分析下面表个，设计一个或多个Java类（一个主类和若干相关类）描述该数据表（即将该表实体化），主类名称Mzrkxb。<BR><IMG 
+  src="实训03_类声明和对象创建_files/pic3-g20.png"><BR>            
+  主要要求：<BR>(1)提供用已有数据实例化。<BR>(2)提供数据查找操作（分别以民族、男性人口、女性人口、男性比重、女性比重为关键字）。<BR>(3)提供数据合计操作（分别以民族、男性人口、女性人口、男性比重、女性比重为数据项）。<BR>(4)提供添加、删除一行数据操作。<BR>(5)提供数据排序（升序和降序）操作（分别以民族、男性人口、女性人口、男性比重、女性比重为关键字）。<BR></P>
+  <P></P></LI></UL></DIV></DIV>
+<DIV class="shadow"></DIV><!-- / #container -->         
+<HR class="noPrint">
+     
+<DIV id="header"><A title="课程资源" id="logo" href="http://202.205.95.151:8080/javatraining/shixun/"></A>
+<HR>
+         <STRONG class="noScreen">Navigation:</STRONG>         
+<UL id="navigation">
+  <LI class="active"><A title="Home" href="http://202.205.95.151:8080/javatraining/index.jsp">主页</A></LI></UL></DIV><!-- / #header --> 
+      </DIV><!-- / #layout --> </DIV><!-- / # wrap --> 
+<HR>
+ 
+<DIV id="footer">
+<DIV id="footerBackground">
+<DIV class="w940 middle">
+<P class="floatLeft">© 2009 –hongzhou</P>
+<P class="floatRight"></P></DIV></DIV></DIV><!-- / #footer --> </BODY></HTML>

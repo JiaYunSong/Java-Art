@@ -1,0 +1,228 @@
+* {
+	background: none !important;
+}
+body {
+	font: 12px/normal Arial, sans-serif; color: rgb(0, 0, 0); padding-top: 0px; font-size-adjust: none; font-stretch: normal;
+}
+p {
+	line-height: 1.8em; font-size: 1em; margin-bottom: 15px;
+}
+address {
+	padding-bottom: 15px; font-style: normal;
+}
+a {
+	outline: 0px; color: rgb(0, 0, 0);
+}
+a:link {
+	outline: 0px; color: rgb(0, 0, 0);
+}
+a:focus {
+	outline: 0px; color: rgb(0, 0, 0);
+}
+a:visited {
+	color: rgb(0, 0, 0);
+}
+a:hover {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+a.more {
+	display: none;
+}
+h1 {
+	margin: 0px 0px 10px;
+}
+h2 {
+	margin: 0px 0px 10px;
+}
+h3 {
+	margin: 0px 0px 10px;
+}
+h4 {
+	margin: 0px 0px 10px;
+}
+h5 {
+	margin: 0px 0px 10px;
+}
+h1 {
+	color: rgb(0, 0, 0); font-family: Georgia; font-size: 3em; font-weight: normal; margin-bottom: 5px;
+}
+h2 {
+	color: rgb(0, 0, 0); font-family: Georgia; font-size: 1.6em; font-weight: normal; margin-bottom: 20px;
+}
+#intro h2 {
+	font-size: 3em; margin-bottom: 5px;
+}
+h3 {
+	color: rgb(0, 0, 0); text-transform: uppercase; font-size: 1.2em; margin-bottom: 20px;
+}
+h4 {
+	color: rgb(0, 0, 0); font-size: 1.2em;
+}
+h5 {
+	font-size: 1.1em;
+}
+#header {
+	display: none;
+}
+#intro {
+	margin-bottom: 0px;
+}
+#jCarousel {
+	padding: 20px 0px;
+}
+#jCarousel a.image {
+	left: -15px; width: 203px; height: 156px; text-align: center; float: left; display: none; position: relative;
+}
+#jCarousel a.image img {
+	top: 13px; position: relative;
+}
+#jCarousel .content {
+	width: 100%; padding-top: 10px; float: none;
+}
+#container {
+	margin-bottom: 0px;
+}
+#container .cols {
+	padding: 0px; margin-bottom: 40px;
+}
+#container .cols li {
+	background: none; padding: 0px; width: 100%; height: auto !important; float: none;
+}
+#container .cols li.first .inner {
+	padding: 0px;
+}
+#container .cols li.center {
+	width: 100%; border-right-color: currentColor; border-left-color: currentColor; border-right-width: 0px; border-left-width: 0px; border-right-style: none; border-left-style: none;
+}
+#container .cols li.center .inner {
+	padding: 0px;
+}
+#container .cols li.last .inner {
+	padding: 0px;
+}
+#container .gallery {
+	display: none;
+}
+#container ul {
+	padding: 5px 10px 25px;
+}
+#container ul li {
+	background: url("../images/arrow.gif") no-repeat 0px 50%; padding: 3px 0px 3px 15px;
+}
+#container table {
+	border: 1px solid rgb(239, 239, 239); border-image: none; width: 100%; border-collapse: collapse;
+}
+* #container table th {
+	background: rgb(204, 204, 204) !important; border-width: 1px 1px 3px; border-style: solid; border-color: rgb(204, 204, 204); padding: 10px; border-image: none; text-align: left; color: rgb(0, 0, 0);
+}
+#container table td {
+	padding: 7px 10px; border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+* #container table .dark td {
+	background: rgb(247, 247, 247);
+}
+#container form {
+	display: none;
+}
+#footer {
+	
+}
+#footer p {
+	color: rgb(0, 0, 0); padding-top: 0px; font-size: 11px;
+}
+#footer p a {
+	color: rgb(0, 0, 0);
+}
+.high {
+	color: rgb(45, 123, 172); font-weight: bold;
+}
+.inner {
+	padding: 15px 20px;
+}
+.middle {
+	margin: 0px auto; position: relative;
+}
+.w900 {
+	width: 100%; float: none !important;
+}
+.w560 {
+	width: 100%; float: none !important;
+}
+.w220 {
+	width: 100%; float: none !important;
+}
+a.thumb img {
+	border: 1px solid rgb(228, 228, 228); border-image: none;
+}
+.noPrint {
+	display: none;
+}
+.jcarousel-skin-tango .jcarousel-container {
+	padding: 30px 0px !important;
+}
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+	width: 100%;
+}
+.jcarousel-skin-tango .jcarousel-container-vertical {
+	width: 100%;
+}
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+	width: 100%; height: auto;
+}
+.jcarousel-skin-tango .jcarousel-clip-vertical {
+	width: 100%;
+}
+.jcarousel-skin-tango .jcarousel-item {
+	width: 100%; height: auto;
+}
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin-right: 10px; margin-left: 0px;
+}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-right: 0px; margin-left: 10px;
+}
+.jcarousel-skin-tango .jcarousel-item-vertical {
+	margin-bottom: 10px;
+}
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+	background: rgb(255, 255, 255); color: rgb(0, 0, 0);
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+	display: none;
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+	background-position: 0px 0px;
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+	background-position: 0px 0px;
+}
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal {
+	background-position: 0px 0px; display: none !important; cursor: default;
+}
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover {
+	background-position: 0px 0px; display: none !important; cursor: default;
+}
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+	background-position: 0px 0px; display: none !important; cursor: default;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+	display: none;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+	background-position: 0px 0px;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+	background-position: 0px 0px;
+}
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal {
+	background-position: 0px 0px; display: none !important; cursor: default;
+}
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover {
+	background-position: 0px 0px; display: none !important; cursor: default;
+}
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+	background-position: 0px 0px; display: none !important; cursor: default;
+}

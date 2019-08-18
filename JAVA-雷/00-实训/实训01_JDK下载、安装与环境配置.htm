@@ -1,0 +1,156 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0060)http://202.205.95.151:8080/javatraining/shixun/shixun01.html -->
+<!DOCTYPE html PUBLIC "" ""><HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+ 
+<META http-equiv="content-type" content="text/html; charset=utf-8"> <LINK href="favicon.ico" 
+rel="shortcut icon"> <LINK href="实训01_JDK下载、安装与环境配置_files/reset.css" rel="stylesheet" 
+type="text/css" media="screen,projection"> <LINK href="实训01_JDK下载、安装与环境配置_files/main.css" 
+rel="stylesheet" type="text/css" media="screen,projection"> <LINK href="实训01_JDK下载、安装与环境配置_files/print.css" 
+rel="stylesheet" type="text/css" media="print"> 
+<SCRIPT src="实训01_JDK下载、安装与环境配置_files/jquery-1.5.1.min.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="实训01_JDK下载、安装与环境配置_files/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="实训01_JDK下载、安装与环境配置_files/jquery.easing-1.3.pack.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="实训01_JDK下载、安装与环境配置_files/jquery.mousewheel-3.0.4.pack.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="实训01_JDK下载、安装与环境配置_files/jquery.nivo.slider.pack.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="实训01_JDK下载、安装与环境配置_files/custom.js" type="text/javascript"></SCRIPT>
+ <TITLE>实训01.JDK下载、安装与环境配置</TITLE> 
+<META name="GENERATOR" content="MSHTML 11.00.10570.1001"></HEAD> 
+<BODY>
+<DIV id="wrap">
+<DIV class="w940 middle" id="layout2">
+<DIV class="clearFix" id="intro">
+<DIV id="sliderWrap"><IMG src="实训01_JDK下载、安装与环境配置_files/line1.png"> </DIV></DIV><!-- / #intro --> 
+    
+<DIV id="container">
+<DIV class="clearFix" id="content">
+<UL>
+  <LI>
+  <H2>一、目的</H2>
+  <P>(1).了解Java运行与开发环境的组成。(2).学习如何建立Java运行与开发环境。(3).学习Java程序开发的过程及步骤。</P></LI>
+  <LI>
+  <H2>二、课程相关</H2>
+  <P>Java平台的构成，学会安装JDK，建立Java程序开发环境。Java程序编写运行过程，掌握如下概念：</P>
+  <P>(1).源程序文件、类文件、字节码。</P>
+  <P>(2).编译、编译器、解释执行、解释器。</P>
+  <P>上述内容请参考课程第一章《Java语言概述》和参考教材。 </P></LI>
+  <LI>
+  <H2>三、内容</H2>
+  <P>1.建立Java平台</P>
+  <P>Java平台的建立只需安装JDK或JRE就可以完成。JRE是Java运行环境（Java Runtime 
+  Environment）缩写,如果仅仅用来运行Java程序，仅安装JRE就可以了。如果需要开发和运行Java程序，就必须安装JDK。</P>
+  <P>第一步：下载JDK。<BR>            
+  通常到sun的Java网站去下载JDK的安装包程序，当然也可以从别的地方获得。JDK安装程序的文件名不同的版本可能有差异，这里以JDK1.8.0_45为例，它的安装包程序文件<A 
+  href="http://202.205.95.151:8080/javatraining/resources/tools/jdk-8u45-windows-i586.exe">jdk-8u45-windows-i586.exe</A>适用于32位操作系统，<A 
+  href="http://202.205.95.151:8080/javatraining/resources/tools/jdk-8u45-windows-x64.exe">jdk-8u45-windows-x64.exe</A>适用于64位操作系统。将需要的安装文件，比如jdk-8u45-windows-i586.exe，下载到你的计算机某个文件夹，比如“C:\temp”，见下图。</P><IMG 
+  src="实训01_JDK下载、安装与环境配置_files/pic001.png">             
+  <P></P>
+  <P>第二步：运行JDK安装程序。<BR>            
+  与执行其他程序一样，用鼠标双击刚才下载的JDK安装程序，开始安装JDK。在安装过程中通常不用人为干预，安装程序会自动安装，当出现提示时只要用鼠标点击“下一步”或“Next”按钮即可。当安装成功结束后，在计算机操作系统所在的磁盘上看到存放Java系统的文件夹，默认安装目录是:C:\Program 
+  Files\Java\jdk1.8.0_45  下图显示执行jdk-6u45-windows-i586.exe后JDK的安装目录 。</P><IMG 
+  src="实训01_JDK下载、安装与环境配置_files/pic002.png">             
+  <P>在JDK安装目录中包含有：</P>
+  <P>开发工具：（\bin）指工具和实用程序，可帮助您开发、执行、调试和保存以 
+  Java编程语言编写的程序。Java用于运行Java程序，Javac用来把Java源程序(.java)编译成能由Java解释执行字节码程序(.class)。</P>
+  <P>运行时环境：（\jre）由 JDK 使用的 Java Runtime Environment (JRETM) 的实现。JRE 包括 JavaTM 
+  虚拟机 (JVMTM)、类库以及其他支持执行以 JavaTM 编程语言编写的程序的文件。</P>
+  <P>附加库：（\lib开发工具所需的其他类库和支持文件。</P>
+  <P>演示applet和应用程序：（\demo）JavaTM 平台的编程示例（带源代码）。包括使用 Swing 和其他 Java 基类以及 
+  Java平台调试器体系结构的示例。</P>
+  <P>样例代码：（\sample）某些 Java API 的编程样例（带源代码）。</P>
+  <P>C头文件：（\include）支持使用Java本机界面、JVMTM 工具界面以及 Java平台的其他功能进行本机代码编程的头文件。</P>
+  <P>源代码：（\src.zip）组成 Java 核心 API 的所有类的 JavaTM 编程语言源文件（即，java.*、javax.* 和某些 
+  org.* 包的源文件，但不包括 com.sun.* 包的源文件）。 </P>
+  <P>第三步：设置JDK环境变量。<BR>通常JDK安装完成后需要设置Java环境变量PATH和CLASSPATH。</P>
+  <P>(1).PATH变量<BR>操作系统用于查找可执行文件的目录集，格式如下：<BR><STRONG>PATH=PATH原有的内容;JDK安装目录\bin</STRONG><BR>JDK安装完成以后需要将开发工具的存放目录加入到PATH变量中，使得在编译或执行Java程序时操作系统能够找到编译程序javac或解释程序java。</P>
+  <P>(2).CLASSPATH变量<BR>Java编译器编译用于查找相关类或接口的目录集，也是Java解释器用于查找相关类或接口的目录集，格式如下：<BR><STRONG>CLASSPATH=class文件目录或jar文件路径名[;...]</STRONG><BR>
+  <P>这里jar文件路径名由每个jar文件及存放它的目录名组成，例如<BR>D:\Program 
+  Files\Java\jdk1.6.0_16\lib\dt.jar<BR>多个路径名之间用“；”分隔。</P>
+  <P>在Windows系统下设置环境变量可以从控制面板的系统设置添加。这里以JDK1.6为例介绍环境变量的设置过程，假设JDK安装的安装路径是C:\Program 
+  Files\Java\jdk1.6.0_16</P><IMG width="62%" height="50%" src="实训01_JDK下载、安装与环境配置_files/pic003.png"> 
+              <IMG width="50%" height="50%" src="实训01_JDK下载、安装与环境配置_files/pic004.png"> 
+              <IMG width="50%" height="50%" src="实训01_JDK下载、安装与环境配置_files/pic005.png"> 
+              <IMG width="50%" height="50%" src="实训01_JDK下载、安装与环境配置_files/pic006.png"> 
+                          
+  <P>2.建立Java开发环境</P>
+  <P>Java平台建立(即安装JDK)完成后就可以运行或开发Java程序了。JDK提供了基本的Java开发工具，这些工具放在JDK安装目录下的bin目录。但是，对于复杂大型的Java程序是不能满足要求，需要专门的集成开发工具。</P>
+  <P>(1)JDK开发工具<BR>JDK开发工具包括工具和实用程序，可帮助开发、执行、调试和保存以 Java 
+  编程语言编写的程序。在这些程序中主要工具程序有：编译工具Javac，解释工具Java，文档生成工具，Java平台调试工具等。具体用法请参考Java文档。</P>
+  <P>(2)集成开发工具<BR>集成开发环境（简称IDE及Integrated Development 
+  Environment的缩写）是用于提供程序开发环境的应用程序，一般包括代码编辑器、编译器、调试器和图形用户界面工具。就是集成了代码编写功能、分析功能、编译功能、调试功能等一体化的开发软件服务套。所有具备这一特性的软件或者软件套（组）都可以叫做集成开发环境,可以独立运行，也可以和其它程序并用。JAVA的集成开发环境很多，比如 
+  JCreator,NetBeans,Java Studio,JBuilder,Java Workshop,JDeveloper,Visual Age for 
+  java,eclipse等等。 </P>
+  <P>(3)安装集成开发工具netbeans。<BR>下载（http://www.netbeans.org）netbeans安装文件，如<A href="http://202.205.95.151:8080/javatraining/resources/tools/netbeans-8.1-windows.exe">netbeans-8.1-windows.exe</A>到计算机的某个磁盘如D盘，或者某个文件夹如d:\temp，然后双击执行安装。开始安装时点击[定制]按钮打开选择项对话框，选择如图所示的选项，然后开始安装进程直到结束。<IMG 
+  src="实训01_JDK下载、安装与环境配置_files/g2-1.png"><IMG src="实训01_JDK下载、安装与环境配置_files/g2-2.png"> 
+  </P>
+  <P>安装完成后在桌面会看到NetBeans IDE 8.1图标，双击图标就可以启动NetBeans IDE 8.1。</P>
+  <P>(4)安装集成开发工eclipse。<BR>下载（http://www.eclipse.org）eclipse安装文件，如<A href="http://202.205.95.151:8080/javatraining/resources/tools/eclipse-jee-kepler-SR1-win32-x86_64.zip">eclipse-jee-kepler-SR1-win32.zip</A>到计算机的某个磁盘如D盘，或者某个文件夹如d:\temp，然后双击执行安装文件解压缩到E:磁盘，如图<IMG 
+  src="实训01_JDK下载、安装与环境配置_files/g3-1.png">。</P>
+  <P>解压缩完成后会在E:盘看到文件夹E:\eclipse，如图所示。<BR><IMG src="实训01_JDK下载、安装与环境配置_files/g3-2.png"><BR><IMG 
+  src="实训01_JDK下载、安装与环境配置_files/g3-3.png"></P>
+  <P>双击[eclipse.exe]就可以启动eclipse。</P>
+  <P>3.课程专用学习环境</P>
+  <P>本课程专门为学习Java语言的初学者提供了一个简单不用安装的学习软件—<A href="http://202.205.95.151:8080/javatraining/resources/tools/JavaEnvir.rar">JavaEnvir</A>，该软件自带学习Java所需JDK、集成开发软件JCreator和相关文档。 
+  JavaEnvir软件以压缩文件提供，只要将其解压缩到计算机的某个硬盘上即可使用。</P>
+  <P>（1）JavaEnvir解压缩<BR>将JavaEnvir解压缩到计算机的某个硬盘上即可使用，见下图所示。下载JavaEnvir.rar到你的计算机磁盘上，例如D：磁盘的temp\文件夹。</P><IMG 
+  src="实训01_JDK下载、安装与环境配置_files/pic020.png">             
+  <P>将JavaEnvir.rar解压缩到计算机磁盘，例如D：磁盘。</P><IMG src="实训01_JDK下载、安装与环境配置_files/pic021.png"> 
+              <IMG width="650" height="481" src="实训01_JDK下载、安装与环境配置_files/pic022.png"> 
+              <IMG width="751" height="623" src="实训01_JDK下载、安装与环境配置_files/pic023.png"> 
+              
+  <P>（2）启动JavaEnvir<BR>No1.打开JavaEnvir文件夹,见下图。</P><IMG width="730" height="415" 
+  src="实训01_JDK下载、安装与环境配置_files/pic024.png">             
+  <P>No2.双击/打开JavaEnvir启动JavaEnvir，见下图。</P><IMG width="567" height="447" src="实训01_JDK下载、安装与环境配置_files/pic025.png"> 
+              
+  <P>JavaEnvir启动完成后显示JavaEnvir窗口如下图所示，在此窗口按下按钮启动相应的工具。</P><IMG width="50%" 
+  height="50%" src="实训01_JDK下载、安装与环境配置_files/pic026.png">             
+  <P>（3）查看Java API文档(JDK文档)</P><IMG width="730" height="519" src="实训01_JDK下载、安装与环境配置_files/pic027.png"> 
+              
+  <P>（4）启动Jcreator集成开发环境</P><IMG width="50%" height="50%" src="实训01_JDK下载、安装与环境配置_files/pic028.png"> 
+              <IMG width="50%" height="50%" src="实训01_JDK下载、安装与环境配置_files/pic029.png"> 
+              <IMG width="50%" height="50%" src="实训01_JDK下载、安装与环境配置_files/pic030.png"> 
+              <IMG width="50%" height="50%" src="实训01_JDK下载、安装与环境配置_files/pic031.png"> 
+                          
+  <P>4.使用JCreatorLE开发Java程序</P>
+  <P>下面通过一个实例介绍Jcreator开发Java程序的过程和相关基本操作。 </P><IMG width="50%" height="50%" 
+  src="实训01_JDK下载、安装与环境配置_files/pic040.png">             
+  <P>（1）启动JCreator</P>
+  <P>（2）创建源程序</P><IMG width="50%" height="50%" src="实训01_JDK下载、安装与环境配置_files/pic050.png"> 
+              <IMG width="50%" height="50%" src="实训01_JDK下载、安装与环境配置_files/pic051.png"> 
+              <IMG width="50%" height="50%" src="实训01_JDK下载、安装与环境配置_files/pic052.png"> 
+              <IMG width="50%" height="50%" src="实训01_JDK下载、安装与环境配置_files/pic053.png"> 
+              <IMG width="50%" height="50%" src="实训01_JDK下载、安装与环境配置_files/pic054.png"> 
+              
+  <P>（3）编译、执行</P><IMG width="50%" height="50%" src="实训01_JDK下载、安装与环境配置_files/pic057.png"> 
+              <IMG width="50%" height="50%" src="实训01_JDK下载、安装与环境配置_files/pic058.png"> 
+              <IMG width="50%" height="50%" src="实训01_JDK下载、安装与环境配置_files/pic059.png"> 
+            </LI>
+  <LI>
+  <H2>四、训练</H2>
+  <P>1.启动NetBeans IDE 8.1，创建Java应用MyFirstApp。</P>
+  <P>2.启动eclipse，创建Java应用MyFirstApp。</P>
+  <P>3.编写一个计算高34米底边宽19米的三角形的面积？</P>
+  <P>4.编写一个计算半径419米的圆的面积和周长？</P>
+  <P>5.从键盘输入三个整数，分别计算它们的累加值与平均数。</P></LI></UL></DIV></DIV>
+<DIV class="shadow"></DIV><!-- / #container -->         
+<HR class="noPrint">
+     
+<DIV id="header"><A title="课程资源" id="logo" href="http://202.205.95.151:8080/javatraining/shixun/"></A>
+<HR>
+         <STRONG class="noScreen">Navigation:</STRONG>         
+<UL id="navigation">
+  <LI class="active"><A title="Home" href="http://202.205.95.151:8080/javatraining/index.jsp">主页</A></LI></UL></DIV><!-- / #header --> 
+      </DIV><!-- / #layout --> </DIV><!-- / # wrap --> 
+<HR>
+ 
+<DIV id="footer">
+<DIV id="footerBackground">
+<DIV class="w940 middle">
+<P class="floatLeft">© 2009 –hongzhou</P>
+<P class="floatRight"></P></DIV></DIV></DIV><!-- / #footer --> </BODY></HTML>

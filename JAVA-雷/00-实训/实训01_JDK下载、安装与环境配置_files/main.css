@@ -1,0 +1,228 @@
+@import url( jquery.fancybox-1.3.4.css );
+@import url( jquery.nivo.slider.css );
+@import url( font.css );
+html {
+	background: url("../images/background.png") rgb(236, 236, 236);
+}
+body {
+	font: 12px/normal Arial, sans-serif; color: rgb(49, 48, 49); font-size-adjust: none; font-stretch: normal;
+}
+p {
+	line-height: 1.8em; font-size: 1em; font-weight: normal; margin-bottom: 15px;
+}
+address {
+	padding-bottom: 15px; font-style: normal;
+}
+a {
+	outline: 0px; color: rgb(76, 185, 225);
+}
+a:link {
+	outline: 0px; color: rgb(76, 185, 225);
+}
+a:focus {
+	outline: 0px; color: rgb(76, 185, 225);
+}
+a:visited {
+	color: rgb(76, 185, 225);
+}
+a:hover {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+a.more {
+	padding: 4px 0px; display: inline-block;
+}
+h1 {
+	margin: 0px 0px 15px; color: rgb(59, 59, 59); font-weight: bold;
+}
+h2 {
+	margin: 0px 0px 15px; color: rgb(59, 59, 59); font-weight: bold;
+}
+h3 {
+	margin: 0px 0px 15px; color: rgb(59, 59, 59); font-weight: bold;
+}
+h4 {
+	margin: 0px 0px 15px; color: rgb(59, 59, 59); font-weight: bold;
+}
+h5 {
+	margin: 0px 0px 15px; color: rgb(59, 59, 59); font-weight: bold;
+}
+h1 {
+	font-size: 2em; margin-bottom: 15px;
+}
+h2 {
+	font-size: 1.2em; margin-bottom: 20px;
+}
+h3 {
+	font-size: 1.3em; margin-bottom: 20px;
+}
+h4 {
+	font-size: 1.2em;
+}
+h5 {
+	font-size: 1.1em;
+}
+#wrap {
+	padding-bottom: 0px;
+}
+#layout {
+	padding-top: 430px;
+}
+#layout2 {
+	padding-top: 190px;
+}
+#header {
+	left: 0px; top: 0px; width: 100%; position: absolute; z-index: 90;
+}
+#header #logo {
+	background: url("../images/lobster.png") no-repeat; left: 0px; top: 35px; width: 97px; height: 38px; color: rgb(255, 255, 255); text-indent: -9999px; text-decoration: none; display: block; position: absolute; z-index: 10;
+}
+#header #navigation {
+	top: 25px; right: 0px; position: absolute;
+}
+#header #navigation li {
+	margin-right: 1px; float: left; display: block;
+}
+#header #navigation li a {
+	padding: 15px; border-radius: 3px; color: rgb(99, 99, 99); text-decoration: none; float: left; display: block; text-shadow: 1px 1px 1px #fff; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+#header #navigation li.active a {
+	background: url("../images/navigation-active.png"); font-weight: bold;
+}
+#header #navigation li:hover a {
+	background: url("../images/navigation-active.png");
+}
+#header #search {
+	top: 34px; right: 0px; position: absolute;
+}
+#header #search .text {
+	background: url("../images/search.png") no-repeat; padding: 5px 10px 5px 30px; border: 0px currentColor; border-image: none; width: 211px; height: 21px; color: rgb(96, 99, 104); text-shadow: 1px 1px 1px #1c1e20;
+}
+#intro {
+	background: url("../images/shadow.png") no-repeat bottom; left: 0px; top: 98px; padding-bottom: 16px; position: absolute; z-index: 100;
+}
+#sliderWrap {
+	background: rgb(255, 255, 255); padding: 9px; border: 1px solid rgb(205, 205, 205); border-image: none;
+}
+#slider {
+	width: 920px; height: 254px;
+}
+#slider2 {
+	width: 920px; height: 54px;
+}
+#container {
+	background: rgb(255, 255, 255); border: 1px solid rgb(214, 214, 214); border-image: none;
+}
+#container #content {
+	padding: 30px; border-bottom-color: rgb(235, 235, 235); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.shadow {
+	background: url("../images/shadow.png"); width: 100%; height: 16px;
+}
+#container ul {
+	padding: 5px 10px 25px 40px;
+}
+#container ul li {
+	padding: 3px 0px 3px 5px;
+}
+#container ul.cols {
+	list-style: none; margin: 0px; padding: 0px; border-bottom-color: rgb(243, 243, 243); border-bottom-width: 2px; border-bottom-style: solid;
+}
+#container ul.cols li {
+	padding: 6px 0px 20px 50px; width: 210px; float: left;
+}
+#container ul.cols li.center {
+	margin: 0px 45px;
+}
+#container ul.cols li.c1 {
+	background: url("../images/1.png") no-repeat;
+}
+#container ul.cols li.c2 {
+	background: url("../images/2.png") no-repeat;
+}
+#container ul.cols li.c3 {
+	background: url("../images/3.png") no-repeat;
+}
+#container .gallery img {
+	margin: 0px 20px 20px 0px; float: left;
+}
+#container table {
+	border: 1px solid rgb(239, 239, 239); border-image: none; width: 100%; border-collapse: collapse;
+}
+#container table th {
+	background: rgb(105, 160, 0); border-width: 1px 1px 3px; border-style: solid; border-color: rgb(105, 160, 0) rgb(105, 160, 0) rgb(138, 206, 7); padding: 10px; border-image: none; text-align: left; color: rgb(255, 255, 255);
+}
+#container table td {
+	padding: 7px 10px; border: 1px solid rgb(239, 239, 239); border-image: none;
+}
+#container table .dark td {
+	background: rgb(247, 247, 247);
+}
+#container form {
+	margin-bottom: 20px;
+}
+#container form fieldset {
+	background: rgb(247, 247, 247); padding: 10px 15px; border: 1px solid rgb(239, 239, 239); border-image: none;
+}
+#container form table {
+	border: 0px currentColor; border-image: none; width: 100%;
+}
+#container form th {
+	background: none; padding: 10px 0px; border: 0px currentColor; border-image: none; width: 30%; text-align: left; color: rgb(0, 0, 0); vertical-align: top;
+}
+#container form td {
+	padding: 5px 20px 5px 0px; border: 0px currentColor; border-image: none; width: 70%;
+}
+#container form .text {
+	padding: 5px; width: 199px;
+}
+#container form .textarea {
+	padding: 5px; width: 338px; height: 158px;
+}
+#container form .checkbox {
+	top: -4px; width: 20px; height: 20px; margin-right: 2px; float: left; position: relative;
+}
+#container form .radio {
+	top: -5px; width: 20px; height: 20px; margin-right: 2px; float: left; position: relative;
+}
+#container form tfoot td {
+	padding-top: 10px;
+}
+#container form .submit {
+	padding: 5px 10px; text-transform: uppercase; font-family: Arial; font-size: 1em; font-weight: bold; cursor: pointer;
+}
+#footer {
+	background: url("../images/footer-background-repeat.png") repeat-x rgb(240, 240, 240); height: 165px; margin-bottom: 0px;
+}
+#footerBackground {
+	background: url("../images/footer-background-center.png") no-repeat 50% 0px; height: 165px; margin-bottom: 0px;
+}
+#footer p {
+	margin: 0px; padding: 0px 20px; color: rgb(135, 135, 135); line-height: 65px; font-size: 11px;
+}
+#footer p a {
+	color: rgb(135, 135, 135);
+}
+.high {
+	color: rgb(45, 123, 172); font-weight: bold;
+}
+.inner {
+	padding: 15px 20px;
+}
+.middle {
+	margin: 0px auto; position: relative;
+}
+.w940 {
+	width: 940px;
+}
+.w600 {
+	width: 600px;
+}
+.w220 {
+	width: 250px;
+}
+a.thumb img {
+	border: 1px solid rgb(228, 228, 228); border-image: none;
+}
+.inner_copyright {
+	height: 0px; line-height: 0; text-indent: -9999px; overflow: hidden; font-size: 0px;
+}

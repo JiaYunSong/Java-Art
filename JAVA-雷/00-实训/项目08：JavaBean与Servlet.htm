@@ -1,0 +1,147 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0060)http://202.205.95.151:8080/javatraining/shixun/shixun08.html -->
+<!DOCTYPE html PUBLIC "" ""><HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+ 
+<META http-equiv="content-type" content="text/html; charset=utf-8"> 
+<META name="robots" content="all,follow"> <LINK href="favicon.ico" rel="shortcut icon"> 
+<LINK href="项目08：JavaBean与Servlet_files/reset.css" rel="stylesheet" type="text/css" 
+media="screen,projection"> <LINK href="项目08：JavaBean与Servlet_files/main.css" 
+rel="stylesheet" type="text/css" media="screen,projection"> <LINK href="项目08：JavaBean与Servlet_files/print.css" 
+rel="stylesheet" type="text/css" media="print"> 
+<SCRIPT src="项目08：JavaBean与Servlet_files/jquery-1.5.1.min.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="项目08：JavaBean与Servlet_files/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="项目08：JavaBean与Servlet_files/jquery.easing-1.3.pack.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="项目08：JavaBean与Servlet_files/jquery.mousewheel-3.0.4.pack.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="项目08：JavaBean与Servlet_files/jquery.nivo.slider.pack.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="项目08：JavaBean与Servlet_files/custom.js" type="text/javascript"></SCRIPT>
+ <TITLE>项目08：JavaBean与Servlet</TITLE> 
+<META name="GENERATOR" content="MSHTML 11.00.10570.1001"></HEAD> 
+<BODY>
+<DIV id="wrap">
+<DIV class="w940 middle" id="layout2">
+<DIV class="clearFix" id="intro">
+<DIV id="sliderWrap"><IMG src="项目08：JavaBean与Servlet_files/line1.png"> 
+</DIV></DIV><!-- / #intro -->     
+<DIV id="container">
+<DIV class="clearFix" id="content">
+<OL>
+  <LI>
+  <H2>一、目的</H2>
+  <P>(1)熟练使用JSP内置对象和HTML表单文本域、列表框、复选框等请求及响应。(2)学习如何编写JavaBean和Servlet。</P></LI>
+  <LI>
+  <H2>二、内容</H2>
+  <P>1.HTML表单相关标记。<BR>2.JSP页面内置对象。<BR>3.JSP指令。<BR>4.JavaBean编写和使用方法及相关API。<BR>5.Servlet编写和使用方法及相关API。<BR></P></LI>
+  <LI>
+  <H2>三、演练与练习</H2>
+  <UL>
+    <LI>略</LI></UL></LI></OL>
+<OL>
+  <H2>四、练习</H2>
+  <LI>
+  <P><STRONG>8-1.</STRONG>建立一个javabean封装用户的信息（姓名和密码）UserInfo.java，其中的方法有setter方法来设置用户的信息，getter方法来获取用户的信息。</P></LI>
+  <LI>
+  <P><STRONG>8-2</STRONG>
+  <P>完成简单的登陆程序。要求：从表单输入用户名和密码，提交后用JavaBean验证用户名和密码。如果验证成功提示“你是合法用户，祝贺你！”，如果验证不成功提示“你不是合法用户，请重新确认！”。</P></LI>
+  <LI>
+  <P><STRONG>8-3.</STRONG>完成简单的登陆程序。要求：从表单输入用户名和密码，提交后用Servlet验证用户名和密码。如果验证成功提示“你是合法用户，祝贺你！”，如果验证不成功提示“你不是合法用户，请重新确认！”。</P></LI>
+  <LI><STRONG>8-4.</STRONG>             
+  <P>完成下面表单，用JavaBean接收表单域的值，然后显示结果。            </P>
+  <FORM name="form1" action="#" method="get">              一：类别               
+  <BLOCKQUOTE>
+    <P><INPUT name="u_cpu" id="u_cpu" type="checkbox">                   <LABEL 
+    for="u_cpu">中央处理器（CPU）</LABEL>                   <INPUT name="u_gpu" id="u_gpu" 
+    type="checkbox">                   <LABEL for="u_gpu">图形处理器（GPU）</LABEL>     
+                  <INPUT name="u_clipeset" id="u_clipeset" type="checkbox">      
+                 <LABEL for="u_clipeset">芯片组</LABEL>                 
+  </P></BLOCKQUOTE>              二：生产商               
+  <BLOCKQUOTE>
+    <P><INPUT name="u_amd" id="u_amd" type="checkbox">                   <LABEL 
+    for="u_amd">AMD</LABEL>                   <INPUT name="u_intel" id="u_intel" 
+    type="checkbox">                   <LABEL for="u_gpu">Intel</LABEL>          
+             <INPUT name="u_arcc" id="u_arcc" type="checkbox">                   
+    <LABEL for="u_arcc">ARCC</LABEL>                 </P></BLOCKQUOTE>
+  <BLOCKQUOTE>
+    <P><INPUT name="submit" type="submit" value="提交">                   
+<INPUT name="reset" type="reset" value="复位">                 
+  </P></BLOCKQUOTE></FORM></LI></OL>
+<OL>
+  <LI><STRONG>8-5.</STRONG>             
+  <P>完成下面表单，用Servlet接收表单域的值，然后显示结果。</P>
+  <FORM name="form1" action="#" method="get">              一：类别               
+  <BLOCKQUOTE>
+    <P><INPUT name="u_cpu" id="u_cpu" type="checkbox">                   <LABEL 
+    for="u_cpu">中央处理器（CPU）</LABEL>                   <INPUT name="u_gpu" id="u_gpu" 
+    type="checkbox">                   <LABEL for="u_gpu">图形处理器（GPU）</LABEL>     
+                  <INPUT name="u_clipeset" id="u_clipeset" type="checkbox">      
+                 <LABEL for="u_clipeset">芯片组</LABEL>                 
+  </P></BLOCKQUOTE>              二：生产商               
+  <BLOCKQUOTE>
+    <P><INPUT name="u_amd" id="u_amd" type="checkbox">                   <LABEL 
+    for="u_amd">AMD</LABEL>                   <INPUT name="u_intel" id="u_intel" 
+    type="checkbox">                   <LABEL for="u_gpu">Intel</LABEL>          
+             <INPUT name="u_arcc" id="u_arcc" type="checkbox">                   
+    <LABEL for="u_arcc">ARCC</LABEL>                 </P></BLOCKQUOTE>
+  <BLOCKQUOTE>
+    <P><INPUT name="submit" type="submit" value="提交">                   
+<INPUT name="reset" type="reset" value="复位">                 
+  </P></BLOCKQUOTE></FORM></LI>
+  <LI>
+  <P><STRONG>8-6.</STRONG>完成简单的计算器程序。要求：(1)从表单输入两个实数，选择计算符，点击[等于]提交计算，显示计算结果。(2)计算过程由JavaBean完成。界面见下图。</P>
+  <FORM action="" method="get"><INPUT name="num1" type="text">                
+  <SELECT name="select" id="select"><OPTION>加</OPTION>                  
+    <OPTION>减</OPTION>                  <OPTION>乘</OPTION>                  
+    <OPTION>除</OPTION>                </SELECT>                
+<INPUT name="num2" type="text">               
+<INPUT name="ok" type="submit" value="等于">             </FORM>
+  <P></P></LI>
+  <LI>
+  <P><STRONG>8-7.</STRONG>             
+  编写界面如下图的简单网页计算器，要求用<EM><STRONG>JavaBean</STRONG></EM> 实现所有计算功能。<BR><IMG src="项目08：JavaBean与Servlet_files/g7-13.png"> 
+              </P>
+  <P></P></LI>
+  <LI>
+  <P><STRONG>8-8.</STRONG>             
+  编写界面如下图的简单网页计算器，要求用<EM><STRONG>Servlet</STRONG></EM> 实现所有计算功能。<BR><IMG src="项目08：JavaBean与Servlet_files/g7-13.png"> 
+              </P>
+  <P></P></LI>
+  <LI>
+  <P><STRONG>8-9.</STRONG>运行下面index.jsp页面和Servlet程序，说明index.jsp与PassParamsServlet的关系，以及index.jsp中表单请求的数据如何传递给PassParamsServlet？</P>
+  <P>JSP页面：index.jsp<BR><IMG src="项目08：JavaBean与Servlet_files/g8-7.png"> </P>
+  <P>Servlet程序:<BR><IMG src="项目08：JavaBean与Servlet_files/g8-8.png"> </P></LI></OL>
+<OL>
+  <H2>五、项目</H2>
+  <LI>
+  <P><STRONG>(无)</STRONG> </P>
+  <P></P></LI>
+  <LI>
+  <P><STRONG>8-31.</STRONG> 
+  编写用户概况输入/修改表单，见下图。表单数据由一个Servlet接收，并由一个新页面显示。</P><IMG src="项目08：JavaBean与Servlet_files/g8-9.png"> 
+              
+  <P></P></LI>
+  <LI>
+  <P><STRONG>8-32.</STRONG>作者详细情况输入/修改表单，见下图。表单数据由一个Servlet接收，并由一个新页面显示。</P><IMG 
+  src="项目08：JavaBean与Servlet_files/g8-10.png">             
+  <P></P></LI></OL></DIV></DIV>
+<DIV class="shadow"></DIV><!-- / #container -->         
+<HR class="noPrint">
+     
+<DIV id="header"><A title="课程资源" id="logo" href="http://202.205.95.151:8080/javatraining/shixun/"></A>
+<HR>
+         <STRONG class="noScreen">Navigation:</STRONG>         
+<UL id="navigation">
+  <LI class="active"><A title="Home" href="http://202.205.95.151:8080/javatraining/index.jsp">主页</A></LI></UL></DIV><!-- / #header --> 
+      </DIV><!-- / #layout --> </DIV><!-- / # wrap --> 
+<HR>
+ 
+<DIV id="footer">
+<DIV id="footerBackground">
+<DIV class="w940 middle">
+<P class="floatLeft">© 2009 –hongzhou</P>
+<P class="floatRight"></P></DIV></DIV></DIV><!-- / #footer --> </BODY></HTML>
